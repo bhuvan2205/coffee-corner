@@ -12,14 +12,14 @@ const getCoffeStoreImageUrls = async () => {
   const photos = await unsplash.search.getPhotos({
     query: "coffee stores",
     page: 1,
-    perPage: 6,
+    perPage: 9,
   });
   return photos.response.results.map((result) => result.urls["small"]);
 };
 
 export const fetchCoffeStores = async (
   latLong = "10.421961,2C79.319612",
-  limit = 6
+  limit = 9
 ) => {
   const photoUrls = await getCoffeStoreImageUrls();
   const options = {
