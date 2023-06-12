@@ -1,8 +1,26 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Live site URL
 
-First, run the development server:
+https://coffee-corner-seven.vercel.app/
+
+## To run the application locally
+
+Step-1: Install node modules
+
+`` npm i ``
+
+Step-2: Create a .env.local file and add four API keys of yours
+
+NEXT_PUBLIC_FOUR_SQUARE_KEY = 'YOUR_NEXT_PUBLIC_FOUR_SQUARE_KEY'
+
+NEXT_PUBLIC_UNSPLASH_ACCESS_KEY = 'YOUR_NEXT_PUBLIC_UNSPLASH_ACCESS_KEY'
+
+AIRTABLE_API_KEY = 'YOUR_AIRTABLE_API_KEY '
+
+AIRTABLE_BASE_KEY = 'YOUR_AIRTABLE_BASE_KEY'
+
+Step-3: Run the local development server:
 
 ```bash
 npm run dev
