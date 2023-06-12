@@ -70,11 +70,11 @@ const Home = (props) => {
         <div>
           {coffeeStores.length > 0 && (
             <div className="px-14">
-              <h2 className="text-4xl uppercase font-bold py-12">
+              <h2 className="text-2xl md:text-4xl uppercase font-bold py-12">
                 Stores near you
                 <div className="bg-black h-[6px] w-[150px] rounded-lg m-1" />
               </h2>
-              <div className="grid md:grid-cols-3 gap-24 mx-auto w-full place-items-center">
+              <div className="grid md:grid-cols-3 gap-12 md:gap-24 mx-auto w-full place-items-center">
                 {coffeeStores.map((item) => {
                   return (
                     <Card
@@ -93,11 +93,11 @@ const Home = (props) => {
           )}
           {props.coffeeStores.length > 0 && (
             <div className="px-14">
-              <h2 className="text-4xl uppercase font-bold py-12">
+              <h2 className="text-2xl md:text-4xl uppercase font-bold py-12">
                 Tanjore stores
                 <div className="h-[6px] w-[150px] bg-black rounded-lg m-1" />
               </h2>
-              <div className="grid md:grid-cols-3 gap-24 mx-auto w-full place-items-center">
+              <div className="grid md:grid-cols-3 gap-12 md:gap-24 mx-auto w-full place-items-center">
                 {props.coffeeStores.map((item) => {
                   return (
                     <Card

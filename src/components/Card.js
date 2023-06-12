@@ -5,10 +5,10 @@ import React from "react";
 const Card = (props) => {
   return (
     <>
-      <div className="card card-compact w-96 bg-base-100 shadow-2xl overflow-hidden rounded">
+      <div className="card card-compact w-68 md:w-96 bg-base-100 shadow-2xl overflow-hidden rounded">
         <Image
           alt="coffee-store"
-          className="h-60 w-96 object-cover"
+          className="h-40 md:h-60 w-96 object-cover"
           src={
             props.imgUrl ||
             "https://images.unsplash.com/photo-1504753793650-d4a2b783c15e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80"

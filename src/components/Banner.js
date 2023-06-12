@@ -71,7 +71,7 @@ const Banner = ({ buttonText, handleClick, loading }) => {
         <img
           src="https://images.pexels.com/photos/977841/pexels-photo-977841.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="Leafs"
-          className="w-full h-48 object-cover sm:h-screen sm:w-4/12"
+          className="hidden md:block w-full h-48 object-cover sm:h-screen sm:w-4/12"
         />
       </div>
     </>

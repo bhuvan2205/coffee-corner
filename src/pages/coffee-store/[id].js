@@ -133,8 +133,8 @@ const CoffeeStore = (initialProps) => {
             <span className="text-2xl"> Back to Home </span>
           </Link>
         </div>
-        <div className="flex">
-          <div className="h-[100%] w-[50%]">
+        <div className="flex flex-col md:flex-row">
+          <div className="h-[250px] w-[80%] mx-auto md:[h-100%] md:[w-50%]">
             <Image
               className="w-[100%] h-[100%] object-cover"
               src={
@@ -146,7 +146,7 @@ const CoffeeStore = (initialProps) => {
               alt={name || "coffee-store"}
             />
           </div>
-          <div className="p-12">
+          <div className="md:p-12">
             <h1 className="text-3xl font-bold py-8">{name}</h1>
             <div className="flex py-4 items-center">
               <Image
