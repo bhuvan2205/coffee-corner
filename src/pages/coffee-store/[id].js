@@ -6,10 +6,7 @@ import Image from "next/image";
 import { fetchCoffeStores } from "@/lib/coffe-stores";
 import { storeContext } from "@/context/store-context";
 import { API_ENDPOINTS } from "@/constants/endpoint";
-
-export const isEmpty = (obj) => {
-  return obj && Object.keys(obj).length === 0;
-};
+import { isEmpty } from "@/utils";
 
 export const fetcher = (url) => fetch(url).then((res) => res.json());
 
